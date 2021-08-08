@@ -1,0 +1,158 @@
+:root{
+    --main-bg-color:#ff004c;
+}
+body{
+    font-family: 'ubuntu';
+    text-align: center;
+}
+#title{
+    background: var(--main-bg-color);
+    padding: 3% 15%;
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.row h1{
+    font-size: 3rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.1rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 3% 5% 7%;
+}
+.dw-btn{
+    margin: 2% 3% 0 2%;
+}
+
+.title-image{
+    width: 17%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+#features{
+    padding: 7% 15%;
+    background: white;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.feature-box p{
+    color: gray;
+}
+
+.icon{
+    color: #ff3370;
+    margin-bottom: 10px;
+}
+
+.icon:hover{
+    color: var(--main-bg-color);
+}
+
+#testimonials{
+    
+    /* text-align: center; */
+    background: var(--main-bg-color);
+    color: white;
+}
+
+#testimonials h2{
+    font-size: 2.5rem;
+}
+.carousel-item{
+    padding: 7% 22%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press{
+    background: var(--main-bg-color);
+    /* text-align: center; */
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding:100px;
+}
+.pricing-column{
+    padding: 2% 3%;
+    /* text-align: center; */
+}
+
+#cta{
+    /* text-align: center; */
+    background: var(--main-bg-color);
+    color: white;
+    padding: 7% 15%;
+}
+.cta-head{
+    font-size: 3rem;
+}
+#footer{
+    padding: 4% 15%;
+    /* text-align: center; */
+}
+.social-icon{
+    margin: 20px 10px;
+}
+@media screen and (max-width:1102px){
+    #title{
+        text-align: center;
+        padding: 3% 6%;
+    }
+    .navbar .heading{
+        font-size: 28px;
+    }
+    .row h1{
+        font-size: 2rem;
+
+    }
+    #testimonials h2{
+        font-size: 20px;
+    }
+    #pricing{
+        padding:20px;
+        text-align: center;
+    }
+    .dw-btn{
+        margin: 5%;
+    }
+    .cta-head{
+        font-size: 1.5rem;
+    }
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0deg);
+    }
+}
